@@ -2819,4 +2819,11 @@ module.exports = [
         extend: hueExtend.light_onoff_brightness_colortemp({colorTempRange: [222, 454]}),
         ota: ota.zigbeeOTA,
     },
+        {
+        zigbeeModel: ['Xi InterAct'],
+        model: '912401483126',
+        vendor: 'Philips',
+        description: 'White rectangle panel light',
+        extend: generic.light_onoff_brightness,
+    },
 ];
